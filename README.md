@@ -2,13 +2,13 @@
 
 Base Map displayed over calgary with date widgets and submit button in the corner
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/30b45752-72a7-42f0-846e-9a279144c1bf)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/cc3bdb94-e590-4518-b5d0-4fc2eebd5b94)
 
 # Date Widget
 
 Widget using jquery to display dates for user to enter
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/311b7e59-0dca-4c5d-b3e9-c73a9ceee0d2)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/2277f961-ac32-4c83-95f3-d03f0638241d)
 
 
 # Building Permits in a Cluster
@@ -16,31 +16,27 @@ Widget using jquery to display dates for user to enter
 Building permits displayed using leaflet plugin markercluster
 
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/85b0fdfb-b139-4c12-88c4-0ca937aa09b4)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/44d4a9be-5e82-430f-aebf-9b775e4286ed)
+
 
 # Popup Information
 
 When click on marker, it displays a popup with all relevant information for building permit
 
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/5a0c9e79-9fa6-45a4-97f6-7e0b172715fc)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/2916a74b-99c3-49f7-8551-57385b71328a)
+
 
 # Building Permits Same Location
 
 When multiple building permits exist within the same location, you can click on marker cluster, and it will display the different building permits
 
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/e98c10ed-647f-4f50-8464-544e1802f655)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/9362325a-74d5-4768-b7d3-31b0cd087329)
 
 
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/45a6e208-5021-4a33-912f-6eaa4276dac6)
+![image](https://github.com/MahmoudAli7/Building-Permits/assets/77214455/f5ab3bd9-23fb-4c54-b2a8-9df18a76e515)
 
-# Error for Invalid Dates or No Building Permits within Date Range
-
-Error message display when there's an invalid date entered or when no building permits exist within given date range
-
-
-![image](https://github.com/MahmoudAli7/ENGO551_Lab3/assets/77214455/d453c311-0994-4534-9c27-2872b5540dd2)
 
 
 
