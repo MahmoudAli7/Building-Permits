@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="map" style="height: 95vh; width: 100vw; position: relative; z-index: 50;">
+            <form id="dateRange" action="" style="position: absolute; top: 15%; left: 10px; z-index: 1000; display: flex; flex-direction: column;">
+                <input id="startDate" type="text" placeholder="Start Date [yyyy-mm-dd]" style="margin: 10px;">
+                <input id="endDate" type="text" placeholder="End Date [yyyy-mm-dd]" style="margin: 10px;">
+                <button type="submit" style="margin: 10px;">
+                    <span id="buttonText">Search</span>
+                    <span id="loadingIndicator" style="display: none;" class="loader"></span>
+                </button>
+            </form>
+            
+        </div>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    </body>
+</html>
